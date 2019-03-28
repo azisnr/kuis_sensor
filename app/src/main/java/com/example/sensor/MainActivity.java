@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private TextView mTextSensorBarometer;
     private TextView mTextSensorAccelerometer;
     private TextView mTextSensorGyroscope;
-    private TextView mTextSensorMagnetometer;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,7 +63,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         if (mSensorBarometer == null) { mTextSensorBarometer.setText(sensor_error); }
         if (mSensorAccelerometer == null) { mTextSensorAccelerometer.setText(sensor_error); }
         if (mSensorGyroscope == null) { mTextSensorGyroscope.setText(sensor_error); }
-        if (mSensorMagnetometer == null) { mTextSensorMagnetometer.setText(sensor_error); }
     }
 
     @Override
