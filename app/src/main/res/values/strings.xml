@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Sensor</string>
+    <string name="label_proximity">Proximity Sensor: %1$.2f</string>
+    <string name="label_gyroscope">Gyroscope Sensor: %1$.2f</string>
+    <string name="label_accelerometer">Accelerometer Sensor: %1$.2f</string>
+    <string name="label_barometer">Barometer Sensor: %1$.2f</string>
+    <string name="label_suhu">Suhu Sensor: %1$.2f</string>
+    <string name="label_magnetometer">Magneto Sensor: %1$.2f</string>
+    <string name="label_light">Light Sensor: %1$.2f</string>
+
+
+    <!-- error message if sensors are not available. -->
+    <string name="error_no_sensor">No sensor</string>
+</resources>
